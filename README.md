@@ -1,4 +1,24 @@
-# convertable-errors
+# convertable-errors &emsp; [[![Latest Version]][crates.io]
+
+[Latest Version]: https://img.shields.io/crates/v/convertable-errors.svg
+[crates.io]: https://crates.io/crates/convertable-errors
+
+## Usage
+
+Simply add this to your `Cargo.toml`
+
+```toml
+convertable-errors = "0.1.0"
+```
+
+and (optionally) to your `lib.rs`:
+
+```rust
+#[macro_use]
+extern crate convertable_errors;
+```
+
+## About
 
 This crate defines a macro for deriving From<T> conversions for variants of Rust enums. For example:
 
