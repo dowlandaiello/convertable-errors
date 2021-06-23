@@ -18,7 +18,7 @@ impl From<ForeignType> for MyEnum {
 
 This is how we would typically define conversions from foreign types to enum variants that contain those foreign types. But [**convertable-errors**](https://github.com/dowlandaiello/convertable-errors) provides a declarative Rust macro to generate these conversions for us. Convertable errors can be used to generate these types of conversions for any type of Rust enum (excluding enums with struct variants, for now), but my main use case is error-like enums.
 
-Using convertable-errors, we can generate From<T> definitions for our enum variants like so:
+Using convertable-errors, we can generate `From<T>` definitions for our enum variants like so:
 
 ```rust
 enum ForeignType;
