@@ -1,0 +1,5 @@
+[package]
+name = "convertable-errors"
+version = "0.1.0"
+edition = "2018"
+authors = ["Dowland Aiello<dowlandaiello@gmail.com>"]
