@@ -1,4 +1,4 @@
-# convertable-errors &emsp; [[![Latest Version]][crates.io]
+# convertable-errors &emsp; [![Latest Version]][crates.io]
 
 [Latest Version]: https://img.shields.io/crates/v/convertable-errors.svg
 [crates.io]: https://crates.io/crates/convertable-errors
