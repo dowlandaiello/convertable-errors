@@ -1,5 +1,11 @@
 [package]
 name = "convertable-errors"
+description = "This crate defines an ergonomic macro for deriving From<Foreign> conversions for variants of Rust enums."
+repository = "https://github.com/dowlandaiello/convertable-errors"
+readme = "README.md"
 version = "0.1.0"
 edition = "2018"
 authors = ["Dowland Aiello<dowlandaiello@gmail.com>"]
+keywords = ["macro", "ergonomic", "enum", "derive"]
+categories = ["development-tools", "rust-patterns", "no-std"]
+license = "MIT"
